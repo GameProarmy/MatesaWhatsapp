@@ -10,7 +10,7 @@
 
 <h1> 🔎 MatesaWhatsapp Nedir? 🔎</h1>
 
-**MatesaWhatsapp ,** [POYRAZ](https://t.me/Poyraz2103). WhatsApp yardımcı botudur . Hesabınıza giriş yapmıyor WhatsApp Web API üzerinde yazılmıştır.🍂
+**MatesaWhatsapp ,** [POYRAZ](https://t.me/Poyraz2103) Tarafından geliştirilen WhatsApp yardımcı botudur . Hesabınıza giriş yapmıyor WhatsApp Web API üzerinde yazılmıştır.🍂
 
 ---
 
