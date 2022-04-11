@@ -61,7 +61,7 @@
         "WARN_MSG": {
             "description": "banlarken mesaj gönder.",
             "required": false,
-            "value": "OK bie"
+            "value": "Ban yedin"
         },
         "REMOVEBG_KEY": {
             "description": "remove.bg'den key",
