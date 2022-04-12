@@ -1,9 +1,5 @@
-FROM fusuf/whatsasena:latest
-
-RUN git clone https://matesa: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@github.com/matesa/MatesaWhatsapp /root/MatesaWhatsapp
-WORKDIR /root/MatesaWhatsapp/
-ENV TZ=Europe/Istanbul
-RUN npm install supervisor -g
-RUN yarn install --no-audit
-
+FROM quay.io/lyfe00011/bot:beta
+RUN git clone https://github.com/lyfe00011/whatsapp-bot.git /root/LyFE/
+RUN mv /root/bottus/* /root/LyFE/
+WORKDIR /root/LyFE/
 CMD ["node", "bot.js"]
