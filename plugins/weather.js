@@ -6,7 +6,7 @@ you may not use this file except in compliance with the License.
 MatesaWhatsapp - Poyraz
 */
 // const Config = require('../config');
-const Asena = require("../Utilis/events")
+const Matesa = require("../Utilis/events")
 const Language = require("../language")
 const Lang = Language.getString("weather")
 // const config = require('../config');
@@ -26,7 +26,7 @@ const { iplscore } = require("../Utilis/Misc")
 const ytid =
   /(?:http(?:s|):\/\/|)(?:(?:www\.|)youtube(?:\-nocookie|)\.com\/(?:watch\?.*(?:|\&)v=|embed|shorts\/|v\/)|youtu\.be\/)([-_0-9A-Za-z]{11})/
 
-Asena.addCommand(
+Matesa.addCommand(
   {
     pattern: "weather ?(.*)",
     fromMe: true,
@@ -81,7 +81,7 @@ Asena.addCommand(
   }
 )
 
-Asena.addCommand(
+Matesa.addCommand(
   {
     pattern: "ytv ?(.*)",
     fromMe: true,
@@ -120,7 +120,7 @@ Asena.addCommand(
   }
 )
 
-Asena.addCommand(
+Matesa.addCommand(
   {
     pattern: "yta ?(.*)",
     fromMe: true,
@@ -151,7 +151,7 @@ Asena.addCommand(
       )
   }
 )
-Asena.addCommand(
+Matesa.addCommand(
   { pattern: "google ?(.*)", fromMe: true, desc: Lang.GOOGLE_DESC },
   async (message, match) => {
     if (!message.reply_message.image)
@@ -168,7 +168,7 @@ Asena.addCommand(
   }
 )
 
-Asena.addCommand(
+Matesa.addCommand(
   {
     pattern: "score ?(.*)",
     fromMe: true,
