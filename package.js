@@ -2,7 +2,7 @@
   "name": "MatesaWhatsapp",
   "version": "1.3.6",
   "description": "MatesaWhatsapp - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./matesa/bot.js",
+  "main": "./WhatsAsenaDuplicated/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
