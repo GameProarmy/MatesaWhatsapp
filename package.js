@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matesa/MatesaWhatsapp.git"
+    "url": "git+https://github.com/lyfe00011/whatsapp-bot.git"
   },
   "keywords": [
     "whatsapp",
     "whatsapp bot",
     "user bot"
   ],
-  "author": "matesa",
+  "author": "lyfe00011",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/matesa/MatesaWhatsapp/issues"
+    "url": "https://github.com/lyfe00011/whatsapp-bot/issues"
   },
-  "homepage": "https://github.com/matesa/MatesaWhatsapp#readme",
+  "homepage": "https://github.com/lyfe00011/whatsapp-bot#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "axios": "^0.21.1",
