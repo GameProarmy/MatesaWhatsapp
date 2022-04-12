@@ -1,8 +1,8 @@
 {
-  "name": "bottus",
-  "version": "1.2.8",
-  "description": "MatesaWhatsapp  bot",
-  "main": "./MatesaWhatsapp/bot.js",
+  "name": "MatesaWhatsapp",
+  "version": "1.3.6",
+  "description": "MatesaWhatsapp - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "main": "./matesa/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
@@ -12,42 +12,27 @@
   },
   "keywords": [
     "whatsapp",
-    "whatsapp bot",
-    "user bot"
+    "bot",
+    "ai",
+    "matesa",
+    "api",
+    "unlimited",
+    "matesa",
+    "machine learning",
+    "automatic",
+    "whatsapp web",
+    "whatsapp api",
+    "MatesaWhatsapp"
   ],
-  "author": "matesa",
+  "author": "matesa / Poyraz",
+  "developer": "matesa / @poyraz2103",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/matesa/MatesaWhatsapp/issues"
   },
   "homepage": "https://github.com/matesa/MatesaWhatsapp#readme",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.2",
-    "axios": "^0.21.1",
-    "chalk": "^4.1.0",
-    "dotenv": "^8.2.0",
-    "fluent-ffmpeg": "^2.1.2",
-    "form-data": "^3.0.0",
-    "fs-extra": "^9.1.0",
-    "g-i-s": "^2.1.6",
-    "google-tts-api": "^2.0.2",
-    "got": "^11.8.0",
-    "heroku-client": "^3.1.0",
-    "jimp": "^0.16.1",
-    "jpeg-js": "^0.4.3",
-    "js-ffmpeg": "0.0.26",
-    "jsdom": "^16.4.0",
-    "langs": "^2.0.0",
-    "meme-maker": "^2.1.2",
-    "node-tesseract-ocr": "^2.0.0",
-    "pg": "^8.5.1",
-    "qrcode-reader": "^1.0.4",
-    "sequelize": "^6.3.5",
-    "simple-git": "^2.39.0",
-    "sqlite3": "^5.0.0",
-    "translatte": "^3.0.0",
-    "wikijs": "^6.0.1",
-    "yt-search": "^2.5.0",
-    "ytdl-core": "^4.8.3"
+    "whatsasena-npm": "^1.3.0",
+    "@poyraz2103/open-apis": "^1.4.0"
   }
 }
