@@ -1,53 +1,73 @@
 {
-  "name": "bottus",
-  "version": "1.2.8",
-  "description": "A whatsapp User bot",
-  "main": "./whatsAsena/bot.js",
+  "name": "MatesaWhatsapp",
+  "version": "2.5.1",
+  "description": "Özelleştirilebilir WhatsApp Botu",
+  "depecrated": false,
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "plugins": "plugins"
+  },
   "scripts": {
-    "start": "supervisor -s bot.js"
+    "start": "nodemon -x node index.js || touch index.js",
+    "test": "node test.js"
+  },
+  "nodemonConfig": {
+    "ext": "js,html,sh"
+  },
+  "keywords": [
+    "termux-whatsapp-bot",
+    "MatesaWhatsapp",
+    "whatsapp",
+    "js-whatsapp"
+  ],
+  "homepage": "https://github.com/matesa/MatesaWhatsapp",
+  "author": {
+    "name": "matesa"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lyfe00011/whatsapp-bot.git"
+    "url": "git+https://github.com/matesa/MatesaWhatsapp.git"
   },
-  "keywords": [
-    "whatsapp",
-    "whatsapp bot",
-    "user bot"
-  ],
-  "author": "lyfe00011",
-  "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/lyfe00011/whatsapp-bot/issues"
+    "url": "https://github.com/matesa/MatesaWhatsapp/issues"
   },
-  "homepage": "https://github.com/lyfe00011/whatsapp-bot#readme",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.2",
-    "axios": "^0.21.1",
-    "chalk": "^4.1.0",
-    "dotenv": "^8.2.0",
-    "fluent-ffmpeg": "^2.1.2",
-    "form-data": "^3.0.0",
-    "fs-extra": "^9.1.0",
+    "@adiwajshing/baileys": "github:melcanz/baileys",
+    "awesome-phonenumber": "^2.54.0",
+    "brainly-scraper-v2": "^2.0.4-1",
+    "cfonts": "^2.9.3",
+    "chalk": "^4.1.1",
+    "cheerio": "^1.0.0-rc.5",
+    "colors": "1.4.0",
+    "express": "^4.17.1",
+    "file-type": "^16.5.2",
+    "form-data": "^4.0.0",
     "g-i-s": "^2.1.6",
-    "google-tts-api": "^2.0.2",
-    "got": "^11.8.0",
-    "heroku-client": "^3.1.0",
-    "jimp": "^0.16.1",
-    "jpeg-js": "^0.4.3",
-    "js-ffmpeg": "0.0.26",
-    "jsdom": "^16.4.0",
-    "langs": "^2.0.0",
-    "meme-maker": "^2.1.2",
-    "node-tesseract-ocr": "^2.0.0",
-    "pg": "^8.5.1",
-    "qrcode-reader": "^1.0.4",
-    "sequelize": "^6.3.5",
-    "simple-git": "^2.39.0",
-    "sqlite3": "^5.0.0",
-    "translatte": "^3.0.0",
-    "wikijs": "^6.0.1",
-    "yt-search": "^2.5.0",
-    "ytdl-core": "^4.8.3"
+    "google-it": "^1.6.2",
+    "got": "^11.8.2",
+    "human-readable": "^0.2.1",
+    "jsbarcode": "^3.11.4",
+    "jsdom": "^16.6.0",
+    "lodash": "^4.17.21",
+    "lowdb": "^2.1.0",
+    "node-fetch": "^2.6.1",
+    "node-gtts": "^2.0.2",
+    "node-webpmux": "^3.1.0",
+    "nodemon": "^2.0.13",
+    "mongoose": "^6.0.11",
+    "qrcode": "^1.4.4",
+    "qrcode-terminal": "^0.12.0",
+    "similarity": "^1.2.1",
+    "socket.io": "^4.1.3",
+    "syntax-error": "^1.4.0",
+    "terminal-image": "^2.0.0",
+    "translate-google-api": "^1.0.4",
+    "url-regex": "^5.0.0",
+    "xmldom": "^0.6.0",
+    "yargs": "^17.0.1",
+    "yt-search": "^2.9.0"
   }
 }
