@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install supervisor -g npm@8.6.0
+RUN npm -g install pageres-cli
 
 COPY . .
 
