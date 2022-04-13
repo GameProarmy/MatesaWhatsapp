@@ -1,5 +1,19 @@
-FROM quay.io/lyfe00011/bot:beta
-RUN git clone https://github.com/matesa/MatesaWhatsapp.git /root/matesa/
-RUN mv /root/bottus/* /root/matesa/
-WORKDIR /root/matesa/
+FROM node:lts-buster
+
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
+
+COPY package.json .
+
+RUN npm install supervisor -g
+
+COPY . .
+
+EXPOSE 5000
+
 CMD ["node", "bot.js"]
