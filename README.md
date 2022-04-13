@@ -1,12 +1,8 @@
+<img src="https://i.hizliresim.com/2ajrlek.png" align="right" width="200" height="200"/>
 
-<div align="center">
+# MatesaWhatsapp <img src="https://img.shields.io/github/v/release/matesa/MatesaWhatsapp?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
-<h1 align="center"><b> Matesa Whatsapp User Bot 🍁</b></h1>
-<br>
 
-<a href="https://github.com/matesa"><img title="Logo" src="https://i.hizliresim.com/2ajrlek.png" width="300" height="280">
-
-<a href="https://github.com/matesa"><img title="Matesa" src="https://img.shields.io/badge/matesa-black?colorA=inactive&colorB=purple&style=social&logo=github"></a>
 
 <h1> 🔎 MatesaWhatsapp Nedir? 🔎</h1>
 
