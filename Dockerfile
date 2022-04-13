@@ -1,16 +1,14 @@
 FROM node:lts-buster
 
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
+RUN git clone https://phaticusthiccy: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@github.com/matesa/MatesaWhatsapp /root/MatesaWhatsapp
 
 COPY package.json .
 
-RUN npm -g install pageres-cli
+ENV TZ=Europe/Istanbul
+
+RUN npm install supervisor -gcli
+
+RUN yarn install --no-audit
 
 COPY . .
 
