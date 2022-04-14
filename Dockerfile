@@ -1,8 +1,10 @@
-FROM fusuf/whatsasena:latest
+FROM buildkite/puppeteer:latest
 
-RUN git clone https://matesa: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@github.com/matesa/MatesaWhatsapp  /root/MatesaWhatsapp
-WORKDIR /root/MatesaWhatsapp/
-ENV TZ=Europe/Istanbul
-RUN npm install -g npm@4.6.0
+RUN apt update
+RUN apt install ffmpeg -y
 
-CMD ["node", "bot.js"]
+WORKDIR /app
+COPY . /app
+RUN npm install
+CMD ["npm", "start"]
+EXPOSE 8080
