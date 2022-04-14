@@ -183,5 +183,5 @@ ${chalk.blue.italic.bgBlack("ℹ️ WhatsApp'a bağlanılıyor... Lütfen bekley
 
 ;(async () => {
   await prepareGreetingMedia()
-  matesawhatsapp(await waWebVersion())
+  matesaWhatsapp(await waWebVersion())
 })()
