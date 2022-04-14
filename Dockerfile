@@ -1,10 +1,9 @@
-FROM buildkite/puppeteer:latest
+FROM fusuf/whatsasena:latest
 
-RUN apt update
-RUN apt install ffmpeg -y
+RUN git clone https://github.com/matesa/MatesaWhatsapp /root/WhatsAsenaDuplicated
+WORKDIR /root/WhatsAsenaDuplicated/
+ENV TZ=Europe/Istanbul
+RUN npm install supervisor -g
+RUN yarn install --no-audit
 
-WORKDIR /app
-COPY . /app
-RUN npm install
-CMD ["npm", "start"]
-EXPOSE 8080
+CMD ["node", "bot.js"]
