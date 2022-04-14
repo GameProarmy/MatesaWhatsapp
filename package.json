@@ -4,7 +4,7 @@
   "description": "MatesaWhatsapp User bot",
   "main": "./MatesaWhatsapp/bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
