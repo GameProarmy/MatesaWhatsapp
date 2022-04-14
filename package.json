@@ -1,6 +1,6 @@
 {
   "name": "MatesaWhatsapp",
-  "version": "2.1.1",
+  "version": "7.3.6",
   "description": "MatesaWhatsapp User bot",
   "main": "./MatesaWhatsapp/bot.js",
   "scripts": {
